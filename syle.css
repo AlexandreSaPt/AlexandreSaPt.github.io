@@ -10,7 +10,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    box-shadow: 0px 0px 4px grey;
 
 }
 
@@ -24,12 +23,14 @@ header{
 
 #visitados{
     border-right: 1px solid black;
-    border-bottom: 1px solid black;
 }
+.border{
+    border-bottom: 1px solid rgb(39, 39, 39);
+    box-shadow: 0px 0px 4px grey;
 
+}
 #por-visitar{
     border-left: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 #visitados div, #por-visitar div{
