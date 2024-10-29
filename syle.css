@@ -35,7 +35,7 @@ header{
 
 #visitados div, #por-visitar div{
     margin: 5px 0;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     background-color: white;
 
@@ -43,13 +43,14 @@ header{
 
 
 
-.main{
+.visitados-container{
     display: grid;
     grid-template-columns: 5fr 3fr;
     /*justify-items: center;*/
 }
 .cafe-info-container{
     margin: 4vw 4vw;
+    margin-top: 2vw;
 
 }
 .title{
