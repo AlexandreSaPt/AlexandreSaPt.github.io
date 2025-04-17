@@ -37,7 +37,7 @@ header{
     margin: 5px 0;
     padding: 5px;
     text-align: center;
-    background-color: white;
+    background-color: transparent;
 
 }
 
@@ -45,8 +45,10 @@ header{
 
 .visitados-container{
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 1fr;
     /*justify-items: center;*/
+
+    box-shadow: 0px 0px 5px black;
 }
 .cafe-info-container{
     margin: 4vw 4vw;
@@ -97,7 +99,7 @@ header{
 }
 
 .image{
-    margin-top: 50px;
+    height: 50vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
