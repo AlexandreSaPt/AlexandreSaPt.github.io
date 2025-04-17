@@ -53,9 +53,12 @@ function updateBorder(){
 
 function displayPorVisitar(){
     updateBorder()
+    renderAllPorVisitar()
+
 }
 
 
 function displayVisitado(){
     updateBorder()
+    renderAllVisitados()
 }

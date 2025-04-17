@@ -22,5 +22,19 @@ const studyData = {
             },
             "img": "./img/supernova.jpeg"
         }
+    ],
+    "por_visitar":[
+        {
+            "title": "Por Visitar Supernova",
+            "subtitle": "perto da Rua do Bonfim",
+            "notes": "é bonitinho, sla",
+            "img": "./img/supernova.jpeg"
+        },
+        {
+            "title": "Outra Supernova",
+            "subtitle": "perto da Rua do Bonfim",
+            "notes": "é bonitinho, sla",
+            "img": "./img/supernova.jpeg"
+        }
     ]
 }

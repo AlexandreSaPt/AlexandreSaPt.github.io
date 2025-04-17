@@ -48,7 +48,6 @@ header{
     grid-template-columns: 1fr;
     /*justify-items: center;*/
 
-    box-shadow: 0px 0px 5px black;
 }
 .cafe-info-container{
     margin: 4vw 4vw;
@@ -56,7 +55,7 @@ header{
 
 }
 .title{
-    margin-bottom: 30px;
+
 }
 
 .title h1{
@@ -75,13 +74,15 @@ header{
 }
 
 .information{
+    margin-top: 30px;
+
     display: grid;
 
     column-gap: 2vw;
     row-gap: 4vw;
     grid-template-columns: 5vw auto;
     margin-left: 1vw;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .icon{

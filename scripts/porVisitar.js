@@ -147,13 +147,41 @@ function renderVisitado(singlePlace){
 }
 
 
+function createNotes(notes){
+    var container = document.createElement('div')
+    container.classList.add("cafe-notes")
+
+    container.textContent = notes
+    return container
+}
+
+function renderPorVisitar(singlePlace){
+    var titleEl = createTitle_Subtitle(singlePlace.title, singlePlace.subtitle)
+    var informationEl = createNotes(singlePlace.notes)
+
+    var cafeInfoContainer = createCafeInfoContainer(titleEl, informationEl)
+
+    var sideImgEl = createSideImage(singlePlace.img)
+
+    var visitadosEl = createVisitados(cafeInfoContainer, sideImgEl)
+    mainEl.appendChild(visitadosEl)
+}
+
 
 function renderAllVisitados(){
+    mainEl.innerHTML = ""
     for(let i = 0; i < studyData.visitados.length; i++){
         renderVisitado(studyData.visitados[i])
     }
 }
 
+function renderAllPorVisitar(){
+    mainEl.innerHTML = ""
 
+    for(let i = 0; i < studyData.por_visitar.length; i++){
+        renderPorVisitar(studyData.por_visitar[i])
+    }
+}
 
-renderAllVisitados()
+//renderAllVisitados()
+//renderAllPorVisitar()
