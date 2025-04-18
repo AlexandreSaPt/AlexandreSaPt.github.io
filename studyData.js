@@ -33,7 +33,7 @@ const studyData = {
         {
             "title": "Outra Supernova",
             "subtitle": "perto da Rua do Bonfim",
-            "notes": "é bonitinho, sla",
+            "notes": ["é bonitinho, sla, ai é? O cookie não faz estragos?", "é bonitinho, sla olá o meu nome é rebeca, e o teu qual é"],
             "img": "./img/supernova.jpeg"
         }
     ]

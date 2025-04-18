@@ -67,3 +67,47 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*--------- NOTES -----------------*/
+.cafe-notes{
+    margin-top: 20px;
+    display: grid;
+
+    grid-template-columns: 1fr;
+}
+
+.notes-title{
+    font-weight: 400;
+    font-size: 4vw;
+}
+.note-text-container{
+    width: 100%;
+}
+.note-text{
+    padding: 10px;
+    margin-top: 5px;
+    width: fit-content;
+    max-width: 80%;
+
+    font-size: 3.5vw;
+}
+
+
+
+.text-left{
+    border-radius: 10px 10px 10px 0px;
+    float: left;
+    background-color: rgb(255, 192, 192);
+    text-align: left;
+
+
+}
+
+.text-right{
+    border-radius: 10px 10px 0px 10px;
+    float: right;
+    background-color: rgb(192, 247, 255);
+    text-align: right;
+
+
+}

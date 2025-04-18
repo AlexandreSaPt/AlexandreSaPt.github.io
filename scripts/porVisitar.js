@@ -12,6 +12,7 @@ function createTextEl(text){
     if(typeof text != "string" || text == ""){
         console.log("Erro! \n text não é um número")
     }
+
     var el = document.createElement('div')
     el.classList.add("text")
     el.innerHTML = text
@@ -21,12 +22,13 @@ function createTextEl(text){
 /*
     em vez de recer o URL, recebe o tipo: euro, pc_friendly, localization, por aí
 */
+
 function createIcon(property){
     if(typeof property != "string" || property == ""){
         console.log("Erro")
+        console.log(`Property: ${property}`)
         return
     }
-    console.log(`Property: ${property}`)
     var el = document.createElement('div')
     el.classList.add("icon")
     url = ""
@@ -39,7 +41,7 @@ function createIcon(property){
     }
     if(url == ""){
         //significa que a property não existe, logo abortar 
-        console.log("erro");
+        console.log("erro- property não existe");
         //return
     }
 
@@ -62,10 +64,6 @@ function createInformation(information){
     //CHECKED
     var infoEl = document.createElement('div')
     infoEl.classList.add("information")
-
-    console.log(`Information JSON: `)
-    console.log(information)
-    console.log(`Properties: ${Object.keys(information)}`)
 
     for(let i = 0; i < Object.keys(information).length; i++){
         var propertyName = Object.keys(information)[i]
@@ -148,10 +146,42 @@ function renderVisitado(singlePlace){
 
 
 function createNotes(notes){
+    //notes is an Array
+
     var container = document.createElement('div')
     container.classList.add("cafe-notes")
 
-    container.textContent = notes
+    var h1 = document.createElement("h1")
+    h1.textContent = "Notas:"
+    h1.classList.add("notes-title")
+    container.appendChild(h1)
+
+    
+
+
+    for(let i = 0; i < notes.length; i++){
+        let note_text = notes[i]
+
+        var container_text = document.createElement("div")
+        container_text.classList.add("note-text-container")
+
+        var note = document.createElement("div")
+        note.classList.add("note-text")
+
+        if(i % 2 == 0){
+            note.classList.add("text-left")
+        }else{
+            note.classList.add("text-right")
+        }
+
+        note.textContent = note_text
+        container_text.appendChild(note)
+        container.appendChild(container_text)
+    }
+    
+
+    
+
     return container
 }
 
