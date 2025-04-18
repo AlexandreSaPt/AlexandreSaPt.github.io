@@ -54,8 +54,13 @@ header{
     background-color: transparent;
     color: black;
     transition: all 0.3s;
+}
+
+#visitados div:hover, #por-visitar div:hover{
     cursor: pointer;
 }
+
+
 .hover{
     background-color: var(--background);
 }
