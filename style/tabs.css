@@ -6,6 +6,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+
 body{
     background: rgb(255, 211, 180);
     background-color: rgb(254, 213, 255);
@@ -18,7 +21,6 @@ header{
     justify-items: center;
 
 }
-
 
 #visitados, #por-visitar{
     width: 100%;
@@ -57,73 +59,3 @@ header{
 
 }
 
-
-#main{
-    height: 2000vh;
-}
-
-.visitados-container{
-    margin: 15px;
-    display: grid;
-    grid-template-columns: 1fr;
-    box-shadow: 0px 0px 10px rgb(79, 79, 79);
-    background-color: white;
-    /*justify-items: center;*/
-
-}
-.cafe-info-container{
-    margin: 4vw 4vw;
-    margin-top: 2vw;
-
-}
-.title{
-
-}
-
-.title h1{
-    color: black;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 40px;
-}
-
-.title h2{
-    font-weight: 200;
-    font-style: italic;
-    font-size: 12px;
-    color: rgb(26, 26, 26);
-    margin-top: -2px;
-}
-
-.information{
-    margin-top: 30px;
-
-    display: grid;
-
-    column-gap: 2vw;
-    row-gap: 4vw;
-    grid-template-columns: 5vw auto;
-    margin-left: 1vw;
-    margin-bottom: 5px;
-}
-
-.icon{
-    margin: auto;
-    width: 5vw;
-    height: 5vw;
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.text{
-    font-size: 3.5vw;
-}
-
-.image{
-    height: 50vw;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
