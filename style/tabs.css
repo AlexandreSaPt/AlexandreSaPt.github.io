@@ -7,13 +7,16 @@
 }
 
 :root{
+    --pink-chat: rgb(255, 192, 192);
+    --blue-chat: rgb(192, 247, 255);
 
+    --background: rgb(254, 213, 255);
+    --info-visitados: rgb(244, 244, 244);
 }
 
 
 body{
-    background: rgb(255, 211, 180);
-    background-color: rgb(254, 213, 255);
+    background-color: var(--background);
     height:max-content;
 }
 
@@ -51,9 +54,9 @@ header{
     background-color: transparent;
     color: black;
     transition: all 0.3s;
-
+    cursor: pointer;
 }
 .hover{
-    background-color: rgb(254, 213, 255);
+    background-color: var(--background);
 }
 

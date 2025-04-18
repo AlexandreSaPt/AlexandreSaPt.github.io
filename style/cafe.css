@@ -40,7 +40,7 @@
     border: 1px solid rgb(152, 152, 152);
     border-radius:  7px;
     padding: 15px;
-    background-color: rgb(244, 244, 244);
+    background-color: var(--info-visitados);
     display: grid;
 
     column-gap: 2vw;
@@ -95,7 +95,7 @@
 .text-left{
     border-radius: 10px 10px 10px 0px;
     float: left;
-    background-color: rgb(255, 192, 192);
+    background-color: var(--pink-chat);
     text-align: left;
 
 
@@ -104,7 +104,7 @@
 .text-right{
     border-radius: 10px 10px 0px 10px;
     float: right;
-    background-color: rgb(192, 247, 255);
+    background-color: var(--blue-chat);
     text-align: right;
 
 
