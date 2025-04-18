@@ -37,7 +37,10 @@
 
 .information{
     margin-top: 30px;
-
+    border: 1px solid rgb(152, 152, 152);
+    border-radius:  7px;
+    padding: 15px;
+    background-color: rgb(244, 244, 244);
     display: grid;
 
     column-gap: 2vw;
@@ -76,10 +79,7 @@
     grid-template-columns: 1fr;
 }
 
-.notes-title{
-    font-weight: 400;
-    font-size: 4vw;
-}
+
 .note-text-container{
     width: 100%;
 }
@@ -88,10 +88,8 @@
     margin-top: 5px;
     width: fit-content;
     max-width: 80%;
-
     font-size: 3.5vw;
 }
-
 
 
 .text-left{

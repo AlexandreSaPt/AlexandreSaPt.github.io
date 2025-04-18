@@ -1,6 +1,5 @@
 //Ter num json tudo aquilo que vem pra cá dps
 
-
 // Obter as tabs para poder utilizalas
 const tabVisitados = document.getElementById("visitados")
 const tabPorVisitar = document.getElementById("por-visitar")
@@ -14,6 +13,7 @@ const tabPorVisitar = document.getElementById("por-visitar")
 
 var tabState = 0
 updateBorder()
+displayVisitado()
 
 
 
@@ -43,10 +43,16 @@ function updateBorder(){
     //new state é PorVisitar
     if(tabState == 1){
         tabPorVisitar.classList.remove("border")
+        tabPorVisitar.classList.add("hover")
+
         tabVisitados.classList.add("border")
+        tabVisitados.classList.remove("hover")
     }else{
         tabPorVisitar.classList.add("border")
+        tabPorVisitar.classList.remove("hover")
+
         tabVisitados.classList.remove("border")
+        tabVisitados.classList.add("hover")
     }
 }
 

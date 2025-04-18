@@ -147,16 +147,13 @@ function renderVisitado(singlePlace){
 
 function createNotes(notes){
     //notes is an Array
+    if(typeof notes != "object"){
+        console.log("error")
+    }
+
 
     var container = document.createElement('div')
-    container.classList.add("cafe-notes")
-
-    var h1 = document.createElement("h1")
-    h1.textContent = "Notas:"
-    h1.classList.add("notes-title")
-    container.appendChild(h1)
-
-    
+    container.classList.add("cafe-notes")    
 
 
     for(let i = 0; i < notes.length; i++){

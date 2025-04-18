@@ -27,7 +27,7 @@ const studyData = {
         {
             "title": "Por Visitar Supernova",
             "subtitle": "perto da Rua do Bonfim",
-            "notes": "é bonitinho, sla",
+            "notes": ["é bonitinho, sla"],
             "img": "./img/supernova.jpeg"
         },
         {
