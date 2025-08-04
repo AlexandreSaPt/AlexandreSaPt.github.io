@@ -1,0 +1,53 @@
+04/08/2025
+Acho que o meu Eu do passado já tinha chegado a esta mesma conclusão.
+Para fazer este site, tinha de:
+ - fazer servidor
+ - base de dados
+E só
+E MUITO!!
+Não compensa. Por isso, vou fechar este projeto, de forma indefinida
+Ele poderá ser atualizado à mão, mas acredito ser mais viável um Google Docs
+
+
+O que é que se quer deste projeto??
+ - algo simples
+ - algo fácil de fazer funcionar, mas que pode ficar melhor com o tempo
+ 
+O que gostava que tivesse
+ - alguma coneção ao google sheets
+    - parte foda são as fotos! não sei como fazer
+        - pode ser só dar upload para o github e no google sheets tem-se o nome das fotos direitinho
+
+
+
+Para já -> fazer uma função que recebe:
+ - array de urls e captions
+ - cria o html
+ - melhorar o css pra não ter problemas de nomes de outras partes do código
+
+
+
+Rever o código que não me lembro
+MAS ACABAR DE PÔR TUDO DIREITINHO PRIMEIRO E DPS, CÓDIGO
+
+
+
+
+
+
+Carrousel de imagens
+ - conclusão: fazer 3 preloads de cenas: um à direita, o outro à esquerda, usando div-> backgorund url
+
+
+
+
+
+ - conseguir fazer upload de imagens
+
+Criar uma branch no github para cada uma das mudanças que fizer (como um engenheiro em condições pahhh)
+
+
+drawio das coisas
+    - nomeadamente das estruturas de dados que usar
+    - esquema da db
+
